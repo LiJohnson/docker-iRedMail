@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# by lcs
+# 2017-06-01
+
+# startup service
+
+service rsyslog start
+service postfix start
+service mysql start
+service nginx start
+service php7.0-fpm start
+service uwsgi start
+service dovecot start
+service clamav-daemon start
+service amavis start
+service clamav-freshclam start
+service sogo start
+service memcached start
+service fail2ban start
+service cron start
