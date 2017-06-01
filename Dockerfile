@@ -1,4 +1,4 @@
-FROM f64ab4ff4421
+FROM lijohnson/ubuntu:iRedmail-installed
 
 
 RUN mv /etc/postfix/main.cf /etc/postfix/main.cf-bak
