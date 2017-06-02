@@ -19,3 +19,5 @@ service sogo start
 service memcached start
 service fail2ban start
 service cron start
+
+bash
